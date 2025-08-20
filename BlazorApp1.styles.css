@@ -82,7 +82,7 @@ main[b-5383j6hyu8] {
 }
 
 .top-row[b-da4la3n260] {
-    height: 3.5rem;
+    min-height: 3.5rem;
     background-color: rgba(0,0,0,0.4);
 }
 
@@ -153,7 +153,7 @@ main[b-5383j6hyu8] {
         /* Never collapse the sidebar for wide screens */
         display: block;
     }
-    
+
     .nav-scrollable[b-da4la3n260] {
         /* Allow sidebar to scroll for tall menus */
         height: calc(100vh - 3.5rem);
