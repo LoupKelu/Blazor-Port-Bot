@@ -1,4 +1,4 @@
-/* General page styling */
+/* ===== General Page Styling ===== */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
@@ -13,30 +13,31 @@ body {
 
 /* Disable vertical scrolling */
 html, body {
-    overflow-y: hidden; /* prevents scrolling up/down */
-    height: 100%;       /* ensures full viewport height */
+    overflow-y: hidden;
+    height: 100%;
 }
 
-/* Center main content with sidebar in mind */
+/* ===== Main Wrapper ===== */
 #main-wrapper {
     display: flex;
-    justify-content: center;   /* horizontal center */
-    align-items: center;       /* vertical center */
-    height: calc(100vh - 3.5rem); /* full height minus top row */
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 3.5rem);
     padding: 20px;
     box-sizing: border-box;
 }
 
+/* ===== Button Container ===== */
 .button-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    align-items: center;       /* center buttons inside container */
+    align-items: center;
 }
 
-/* Button styling */
+/* ===== Buttons ===== */
 .button {
-    background-color: #007BFF;
+    background: linear-gradient(135deg, #ff6a00, #ee0979);
     color: white;
     font-size: 16px;
     padding: 15px 25px;
@@ -44,40 +45,42 @@ html, body {
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 700px;       /* Set fixed width for longer buttons */
-    max-width: 80%;     /* Optional: scale down on smaller screens */
+    width: 700px;
+    max-width: 80%;
     text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
-
 
 .button:hover {
     transform: scale(1.05);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
-/* Popup Styles */
+/* ===== Popup Styling ===== */
 .popup {
     display: none;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #1f1f1f, #333);
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.5);
     width: 400px;
-    padding: 20px;
+    padding: 25px 20px;
     z-index: 100;
     opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    color: #f0f0f0;
 }
 
 .popup.show {
     display: block;
     opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
 }
 
+/* ===== Close Button ===== */
 .popup-close {
     position: absolute;
     top: 10px;
@@ -85,118 +88,189 @@ html, body {
     background: transparent;
     border: none;
     font-size: 20px;
-    color: #999;
+    color: #ccc;
     cursor: pointer;
 }
 
 .popup-close:hover {
-    color: #007BFF;
+    color: #ff6a00;
 }
 
+/* ===== Popup Title ===== */
 .popup-title {
     font-size: 24px;
     margin-bottom: 15px;
     font-weight: bold;
-    color: #007BFF;
+    color: #ff6a00;
+    text-align: center;
 }
 
+/* ===== Popup Message ===== */
 .popup-message {
     font-size: 14px;
     margin-bottom: 20px;
-    color: #555;
+    color: #ddd;
+    text-align: center;
 }
 
+.popup-message a {
+    color: #ee0979;
+    text-decoration: underline;
+}
+
+/* ===== Popup Buttons ===== */
 .popup-buttons {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.popup-buttons button {
-    background-color: #007BFF;
-    color: white;
+.popup-buttons button,
+.popup-buttons label.btn {
     padding: 10px 20px;
+    border-radius: 6px;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    font-weight: 500;
+    transition: all 0.2s ease;
 }
 
 .popup-buttons button:disabled {
-    background-color: #ddd;
+    opacity: 0.5;
     cursor: not-allowed;
 }
 
-.popup-buttons button:hover {
-    background-color: #0056b3;
+.btn-primary {
+    background: linear-gradient(135deg, #ff6a00, #ee0979);
+    color: white;
 }
 
-/* Updated path container for horizontal scroll */
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+}
+
+.btn-secondary:hover {
+    transform: scale(1.05);
+}
+
+/* ===== Path Container ===== */
 .path-container {
-    background-color: #f5f5f5;
+    background-color: #222;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 6px;
     font-size: 14px;
-    white-space: nowrap; /* Prevent text wrapping */
-    overflow-x: auto; /* Enables horizontal scrolling */
-    overflow-y: hidden; /* Prevents vertical scrolling */
-    max-height: 30px; /* Limit the height of the container */
-    font-family: monospace; /* Monospace font for clarity */
-    word-wrap: normal; /* Ensures long path is not broken into multiple lines */
+    font-family: monospace;
+    white-space: nowrap;
+    overflow-x: auto;
+    color: #f0f0f0;
+    margin-bottom: 10px;
 }
 
-/* Blur effect on main content when popup is active */
+/* ===== Copy Button ===== */
+.copy-button {
+    background: linear-gradient(135deg, #28a745, #218838);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s ease;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+.copy-button:hover {
+    transform: scale(1.05);
+}
+
+/* ===== Select Dropdown ===== */
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ff6a00;
+    border-radius: 5px;
+    background-color: #333;
+    color: #f0f0f0;
+    outline: none;
+    font-weight: bold;
+}
+
+select:focus {
+    border-color: #ee0979;
+    box-shadow: 0 0 5px rgba(255, 106, 0, 0.5);
+}
+
+/* ===== Blur Main Content ===== */
 .blur {
     filter: blur(5px);
     pointer-events: none;
 }
 
-/* File input styling */
+/* ===== File Input ===== */
 input[type="file"] {
     display: none;
 }
 
-/* Add transitions and smooth hover effects for the path container */
-.copy-button {
-    background-color: #28a745; /* Green color */
-    color: white; /* White text color */
-    padding: 6px 12px; /* Smaller padding for a smaller button */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s; /* Smooth transition on hover */
-    margin-top: 10px; /* Space above the button */
-    align-self: center; /* Center alignment using flexbox */
-    display: block; /* Ensure it behaves like a block element */
-    margin-left: auto; /* Center the button horizontally */
-    margin-right: auto; /* Center the button horizontally */
+/* ===== File Button Container ===== */
+.file-btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
 }
 
-.copy-button:hover {
-    background-color: #218838;
+.file-btn {
+    background: linear-gradient(135deg, #ff6a00, #ee0979);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 5px;
 }
 
-/* Styling for select dropdown */
-select {
-    width: 100%; /* Make the dropdown span the entire width of the container */
-    padding: 8px; /* Add padding for better aesthetics */
-    font-size: 16px; /* Increase the font size for better readability */
-    border: 1px solid #007BFF; /* Blue border to match button color */
-    border-radius: 5px; /* Add rounded corners */
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Optional shadow for a 3D look */
-    font-weight: bold; /* Make the text bold */
-    outline: none; /* Remove default focus outline */
+.file-btn:hover {
+    transform: scale(1.05);
 }
 
-select:focus {
-    border-color: #0056b3; /* Darker blue when the dropdown is focused */
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Optional glow effect on focus */
+.file-name {
+    font-size: 14px;
+    color: #ddd;
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
-/* Mobile adjustment */
+/* ===== Mobile Adjustment ===== */
 @media (max-width: 640px) {
     #main-wrapper {
-        margin-left: 0;   /* no sidebar offset on small screens */
-        height: auto;     /* fit content */
+        margin-left: 0;
+        height: auto;
+        flex-direction: column;
     }
+
+    .button {
+        width: 90%;
+    }
+
+    .popup {
+        width: 95%;
+    }
+}
+
+/* ===== Center Attempt Creation Button in Multiple Personas Popup ===== */
+#multiple-personas-popup .popup-buttons button:last-child {
+    display: block;
+    margin: 20px auto 0 auto;
 }
