@@ -30,3 +30,40 @@ window.validateImageDimensions = async (imageBytes) => {
         img.src = url;
     });
 };
+
+
+async function overlayCape(base64Cape) {
+    const capeImg = await loadImageFromBase64(base64Cape);
+
+    // Updated path to your overlay in wwwroot/overlays/
+    const overlayImg = await loadImage('/overlays/Custom_Cape.png');
+
+    const canvas = document.createElement('canvas');
+    canvas.width = capeImg.width;
+    canvas.height = capeImg.height;
+    const ctx = canvas.getContext('2d');
+
+    ctx.drawImage(capeImg, 0, 0);
+    ctx.drawImage(overlayImg, 0, 0, capeImg.width, capeImg.height);
+
+    return canvas.toDataURL().split(',')[1]; // return Base64 without prefix
+}
+
+function loadImage(src) {
+    return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.src = src;
+        img.onload = () => resolve(img);
+        img.onerror = reject;
+    });
+}
+
+function loadImageFromBase64(base64) {
+    return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.src = 'data:image/png;base64,' + base64;
+        img.onload = () => resolve(img);
+        img.onerror = reject;
+    });
+}
+

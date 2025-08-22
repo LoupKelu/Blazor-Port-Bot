@@ -3,6 +3,9 @@
     "signatures.json",
     "manifest.json",
     "contents.json",
-    "cape_cherry.meta.json"
+    "cape_cherry.meta.json",
+    "texts/en_US.lang",
+    "texts/languages.json",
+    "texts/ReadMe.txt"
   ]
 }
