@@ -11,3 +11,22 @@ function downloadFileFromBytes(fileName, byteArray) {
 
     URL.revokeObjectURL(url);
 }
+
+// Validate PNG dimensions
+window.validateImageDimensions = async (imageBytes) => {
+    return new Promise((resolve) => {
+        const blob = new Blob([new Uint8Array(imageBytes)], { type: "image/png" });
+        const url = URL.createObjectURL(blob);
+
+        const img = new Image();
+        img.onload = () => {
+            resolve(img.width === 64 && img.height === 32);
+            URL.revokeObjectURL(url);
+        };
+        img.onerror = () => {
+            resolve(false);
+            URL.revokeObjectURL(url);
+        };
+        img.src = url;
+    });
+};
