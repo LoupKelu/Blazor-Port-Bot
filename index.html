@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="BlazorApp1.styles.css" rel="stylesheet" />
+    <!-- Add crypto-js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
 </head>
 
 <body>
@@ -27,6 +29,93 @@
         <span class="dismiss">🗙</span>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
+    
+    <!-- Non-blocking crypto functions -->
+    <script>
+        window.cryptoHelpers = {
+            // SHA256 hash function - async to prevent blocking
+            sha256: async function(data) {
+                return new Promise((resolve, reject) => {
+                    setTimeout(() => {
+                        try {
+                            const wordArray = CryptoJS.lib.WordArray.create(data);
+                            const hash = CryptoJS.SHA256(wordArray);
+                            resolve(hash.toString(CryptoJS.enc.Base64));
+                        } catch (e) {
+                            reject(e);
+                        }
+                    }, 1); // Small delay to prevent blocking
+                });
+            },
+
+            // AES-256-CFB encryption - async with progress
+            aes256CfbEncrypt: async function(key, iv, data) {
+                return new Promise((resolve, reject) => {
+                    setTimeout(() => {
+                        try {
+                            console.log(`Encrypting ${data.length} bytes...`);
+                            
+                            // Convert byte arrays to WordArrays
+                            const keyWA = CryptoJS.lib.WordArray.create(key);
+                            const ivWA = CryptoJS.lib.WordArray.create(iv.slice(0, 16)); // CFB uses 16-byte IV
+                            const dataWA = CryptoJS.lib.WordArray.create(data);
+                            
+                            // Perform AES encryption in CFB mode
+                            const encrypted = CryptoJS.AES.encrypt(dataWA, keyWA, {
+                                iv: ivWA,
+                                mode: CryptoJS.mode.CFB,
+                                padding: CryptoJS.pad.NoPadding
+                            });
+                            
+                            // Convert result back to byte array
+                            let encryptedBytes = this.wordArrayToBytes(encrypted.ciphertext);
+                            
+                            // Pad to 16-byte boundary (matching original C# code)
+                            while (encryptedBytes.length % 16 !== 0) {
+                                encryptedBytes.push(0);
+                            }
+                            
+                            console.log(`Encryption complete: ${encryptedBytes.length} bytes`);
+                            resolve(encryptedBytes);
+                        } catch (e) {
+                            console.error('Encryption error:', e);
+                            reject(e);
+                        }
+                    }, 1); // Small delay to prevent blocking
+                });
+            },
+
+            // Convert WordArray to byte array
+            wordArrayToBytes: function(wordArray) {
+                const bytes = [];
+                for (let i = 0; i < wordArray.sigBytes; i++) {
+                    const byte = (wordArray.words[i >>> 2] >>> (24 - (i % 4) * 8)) & 0xff;
+                    bytes.push(byte);
+                }
+                return bytes;
+            }
+        };
+
+        // File download function
+        window.downloadFile = (filename, base64Data) => {
+            try {
+                const link = document.createElement('a');
+                link.download = filename;
+                link.href = 'data:application/octet-stream;base64,' + base64Data;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            } catch (e) {
+                console.error('Download error:', e);
+                alert('Download failed: ' + e.message);
+            }
+        };
+
+        // Progress callback for Blazor
+        window.updateProgress = (message) => {
+            console.log('Progress:', message);
+        };
+    </script>
 </body>
 
 </html>

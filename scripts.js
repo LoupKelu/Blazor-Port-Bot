@@ -1,3 +1,4 @@
+
 function downloadFileFromBytes(fileName, byteArray) {
     const blob = new Blob([new Uint8Array(byteArray)], { type: "application/zip" });
     const url = URL.createObjectURL(blob);
@@ -67,3 +68,31 @@ function loadImageFromBase64(base64) {
     });
 }
 
+const fileInput = document.getElementById('fileInput');
+const fileName = document.getElementById('fileName');
+
+fileInput.addEventListener('change', () => {
+    if (fileInput.files.length > 0) {
+        fileName.textContent = fileInput.files[0].name;
+    } else {
+        fileName.textContent = "No file selected";
+    }
+});
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const fileInput = document.getElementById('fileInput');
+    const fileName = document.getElementById('fileName');
+
+    if (fileInput && fileName) {
+        fileInput.addEventListener('change', () => {
+            if (fileInput.files.length > 0) {
+                fileName.textContent = fileInput.files[0].name;
+                fileName.classList.add('selected');  // add visual effect
+            } else {
+                fileName.textContent = 'No file selected';
+                fileName.classList.remove('selected');
+            }
+        });
+    }
+});
