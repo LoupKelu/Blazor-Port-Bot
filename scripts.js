@@ -37,7 +37,7 @@ async function overlayCape(base64Cape) {
     const capeImg = await loadImageFromBase64(base64Cape);
 
     // Updated path to your overlay in wwwroot/overlays/
-    const overlayImg = await loadImage('/overlays/Custom_Cape.png');
+    const overlayImg = await loadImage(`${document.baseURI}overlays/Custom_Cape.png`);
 
     const canvas = document.createElement('canvas');
     canvas.width = capeImg.width;
