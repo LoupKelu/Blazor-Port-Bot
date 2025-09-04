@@ -1,6 +1,10 @@
 self.assetsManifest = {
-  "version": "VGed3RfM",
+  "version": "eClcLZJO",
   "assets": [
+    {
+      "hash": "sha256-z4lCapZ+PLVSnUQOnDithJE8iqRGIhiObkoUGJAj1Cs=",
+      "url": "404.html"
+    },
     {
       "hash": "sha256-V0KPoKWDL57qHHxPixcWDCOoElyA5XlcJds9IRvc3zs=",
       "url": "_framework/Microsoft.AspNetCore.Components.Web.wasm"
@@ -434,7 +438,7 @@ self.assetsManifest = {
       "url": "blockbench/icon_full.png"
     },
     {
-      "hash": "sha256-O+CXDvJLzjqsW/C3cbgPXXXhH1vSUPE9BNa2TdARK+I=",
+      "hash": "sha256-22arOfnYyjlIlIjQYfaOfpDTWU85UyUGjxX1U6wsQf0=",
       "url": "blockbench/index.html"
     },
     {
@@ -922,7 +926,7 @@ self.assetsManifest = {
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-n3zQtAVO+Uh5jevjEYb3wnuAvrrQrzBcDIpaLP0lJDA=",
+      "hash": "sha256-m8nmF3tfMv+xnFJrV3ByO+zR7G1OHIhyhMwCSxfXrVs=",
       "url": "index.html"
     },
     {

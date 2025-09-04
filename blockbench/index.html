@@ -2,9 +2,11 @@
 <html lang="en">
 
 <!-- Mirrored from web.blockbench.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 22 Aug 2025 09:39:02 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
 	<title>PortBot</title>
+	<base href="./cosmetic/" />
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="theme-color" content="#181a1f">
@@ -29,19 +31,19 @@
 </head>
 <body spellcheck="false" class="maximized">
 	<script>
-		if (typeof module === 'object') {window.module = module; module = undefined;}//jQuery Fix
+		if (typeof module === 'object') { window.module = module; module = undefined; }//jQuery Fix
 		const isApp = typeof require !== 'undefined';
 
-		
+
 		if (localStorage.getItem('theme')) {
 			try {
 				stored_theme = JSON.parse(localStorage.getItem('theme'));
 				document.body.style.setProperty('--color-dark', stored_theme.colors.dark);
-			} catch (err) {}
+			} catch (err) { }
 		}
 		window.ErrorLog = [];
 		window.onerror = (message, file, line) => {
-			window.ErrorLog.push({message, file, line})
+			window.ErrorLog.push({ message, file, line })
 			if (typeof Blockbench != 'undefined' && Blockbench.setup_successful) return;
 
 			let error_element = document.querySelector('#loading_error_detail');
@@ -67,133 +69,133 @@
 			error_element.innerHTML = `Incompatible browser version. Please update your web browser.`
 		}
 	</script>
-		<script src="lib/vue.min.js"></script>
-		<script src="lib/vue_sortable.js"></script>
-		<script src="lib/jquery.js"></script>
-		<script src="lib/jquery-ui.min.js"></script>
-		<script src="lib/targa.js"></script>
-		<script src="lib/jszip.min.js"></script>
-		<script src="lib/gif.js"></script>
-		<script src="lib/FileSaver.js"></script>
-		<script src="lib/prism.js"></script>
-		<script src="lib/VuePrismEditor.min.js"></script>
-		<script src="lib/molang-prism-syntax.js"></script>
-		<script src="lib/lzutf8.js"></script>
-		<script src="lib/peer.min.js"></script>
-		<script src="lib/marked.min.js"></script>
-		<script src="lib/purify.min.js"></script>
-		<script src="lib/spectrum.js"></script>
-		<script src="lib/color-picker.min.js"></script>
-		<script src="lib/three.min.js"></script>
-		<script src="lib/three_custom.js"></script>
-		<script src="lib/GLTFExporter.js"></script>
-		<script src="lib/CanvasFrame.js"></script>
-		<script src="lib/canvas2apng.js"></script>
-		<script src="lib/fik.min.js"></script>
-		<script src="lib/molang.umd.js"></script>
-		<script src="lib/wintersky.umd.js"></script>
-		<script src="lib/easing.js"></script>
-		
-		<script src="bundle.js"></script>
-		<script src="js/preview/OrbitControls.js"></script>
-		<script src="js/util/util.js"></script>
-		<script src="js/util/math_util.js"></script>
-		<script src="js/util/array_util.js"></script>
-		<script src="js/util/event_system.js"></script>
-		<script src="js/util/property.js"></script>
-		<script src="js/util/json.js"></script>
-		<script src="js/interface/menu.js"></script>
-		<script src="js/interface/actions.js"></script>
-		<script src="js/interface/themes.js"></script>
-		<script src="js/interface/shared_actions.js"></script>
-		<script src="js/misc.js"></script>
-		<script src="js/modes.js"></script>
-		<script src="js/api.js"></script>
-		<script src="js/file_system.js"></script>
-		<script src="js/interface/vue_components.js"></script>
-		<script src="js/interface/panels.js"></script>
-		<script src="js/interface/interface.js"></script>
-		<script src="js/interface/menu_bar.js"></script>
-		<script src="js/interface/start_screen.js"></script>
-		<script src="js/interface/form.js"></script>
-		<script src="js/interface/dialog.js"></script>
-		<script src="js/interface/keyboard.js"></script>
-		<script src="js/interface/settings.js"></script>
-		<script src="js/interface/about.js"></script>
-		<script src="js/interface/action_control.js"></script>
-		<script src="js/copy_paste.js"></script>
-		<script src="js/undo.js"></script>
+	<script src="lib/vue.min.js"></script>
+	<script src="lib/vue_sortable.js"></script>
+	<script src="lib/jquery.js"></script>
+	<script src="lib/jquery-ui.min.js"></script>
+	<script src="lib/targa.js"></script>
+	<script src="lib/jszip.min.js"></script>
+	<script src="lib/gif.js"></script>
+	<script src="lib/FileSaver.js"></script>
+	<script src="lib/prism.js"></script>
+	<script src="lib/VuePrismEditor.min.js"></script>
+	<script src="lib/molang-prism-syntax.js"></script>
+	<script src="lib/lzutf8.js"></script>
+	<script src="lib/peer.min.js"></script>
+	<script src="lib/marked.min.js"></script>
+	<script src="lib/purify.min.js"></script>
+	<script src="lib/spectrum.js"></script>
+	<script src="lib/color-picker.min.js"></script>
+	<script src="lib/three.min.js"></script>
+	<script src="lib/three_custom.js"></script>
+	<script src="lib/GLTFExporter.js"></script>
+	<script src="lib/CanvasFrame.js"></script>
+	<script src="lib/canvas2apng.js"></script>
+	<script src="lib/fik.min.js"></script>
+	<script src="lib/molang.umd.js"></script>
+	<script src="lib/wintersky.umd.js"></script>
+	<script src="lib/easing.js"></script>
 
-		<script type="text/javascript">
-			if (isApp === true) {
-				document.write("<script src='js/desktop.js'><\/script>");
-			} else {
-				document.write("<script src='js/web.js'><\/script>");
-			}
-		</script>
+	<script src="bundle.js"></script>
+	<script src="js/preview/OrbitControls.js"></script>
+	<script src="js/util/util.js"></script>
+	<script src="js/util/math_util.js"></script>
+	<script src="js/util/array_util.js"></script>
+	<script src="js/util/event_system.js"></script>
+	<script src="js/util/property.js"></script>
+	<script src="js/util/json.js"></script>
+	<script src="js/interface/menu.js"></script>
+	<script src="js/interface/actions.js"></script>
+	<script src="js/interface/themes.js"></script>
+	<script src="js/interface/shared_actions.js"></script>
+	<script src="js/misc.js"></script>
+	<script src="js/modes.js"></script>
+	<script src="js/api.js"></script>
+	<script src="js/file_system.js"></script>
+	<script src="js/interface/vue_components.js"></script>
+	<script src="js/interface/panels.js"></script>
+	<script src="js/interface/interface.js"></script>
+	<script src="js/interface/menu_bar.js"></script>
+	<script src="js/interface/start_screen.js"></script>
+	<script src="js/interface/form.js"></script>
+	<script src="js/interface/dialog.js"></script>
+	<script src="js/interface/keyboard.js"></script>
+	<script src="js/interface/settings.js"></script>
+	<script src="js/interface/about.js"></script>
+	<script src="js/interface/action_control.js"></script>
+	<script src="js/copy_paste.js"></script>
+	<script src="js/undo.js"></script>
 
-		<script src="js/edit_sessions.js"></script>
-		<script src="js/validator.js"></script>
-		<script src="js/outliner/outliner.js"></script>
-		<script src="js/outliner/collections.js"></script>
-		<script src="js/outliner/group.js"></script>
-		<script src="js/outliner/mesh.js"></script>
-		<script src="js/outliner/cube.js"></script>
-		<script src="js/outliner/texture_mesh.js"></script>
-		<script src="js/outliner/locator.js"></script>
-		<script src="js/outliner/null_object.js"></script>
-		<script src="js/preview/preview.js"></script>
-		<script src="js/preview/reference_images.js"></script>
-		<script src="js/preview/screenshot.js"></script>
-		<script src="js/preview/canvas.js"></script>
-		<script src="js/modeling/transform_gizmo.js"></script>
-		<script src="js/modeling/transform.js"></script>
-		<script src="js/modeling/scale.js"></script>
-		<script src="js/modeling/mesh_editing.js"></script>
-		<script src="js/modeling/mirror_modeling.js"></script>
-		<script src="js/texturing/layers.js"></script>
-		<script src="js/texturing/textures.js"></script>
-		<script src="js/texturing/texture_groups.js"></script>
-		<script src="js/texturing/texture_flipbook.js"></script>
-		<script src="js/texturing/uv.js"></script>
-		<script src="js/texturing/painter.js"></script>
-		<script src="js/texturing/texture_generator.js"></script>
-		<script src="js/texturing/color.js"></script>
-		<script src="js/texturing/edit_image.js"></script>
-		<script src="js/display_mode.js"></script>
-		<script src="js/animations/animation_mode.js"></script>
-		<script src="js/animations/animation.js"></script>
-		<script src="js/animations/molang.js"></script>
-		<script src="js/animations/timeline_animators.js"></script>
-		<script src="js/animations/keyframe.js"></script>
-		<script src="js/animations/timeline.js"></script>
-		<script src="js/animations/animation_controllers.js"></script>
-		<script src="js/preview/preview_scenes.js"></script>
-		<script src="js/predicate_editor.js"></script>
-		<script src="js/plugin_loader.js"></script>
+	<script type="text/javascript">
+		if (isApp === true) {
+			document.write("<script src='js/desktop.js'><\/script>");
+		} else {
+			document.write("<script src='js/web.js'><\/script>");
+		}
+	</script>
 
-		<script src="js/io/codec.js"></script>
-		<script src="js/io/format.js"></script>
-		<script src="js/io/project.js"></script>
-		<script src="js/io/io.js"></script>
-		<script src="js/io/share.js"></script>
-		<script src="js/io/formats/generic.js"></script>
-		<script src="js/io/formats/bbmodel.js"></script>
-		<script src="js/io/formats/java_block.js"></script>
-		<script src="js/io/formats/bedrock.js"></script>
-		<script src="js/io/formats/bedrock_old.js"></script>
-		<script src="js/io/formats/obj.js"></script>
-		<script src="js/io/formats/gltf.js"></script>
-		<script src="js/io/formats/fbx.js"></script>
-		<script src="js/io/formats/collada.js"></script>
-		<script src="js/io/formats/modded_entity.js"></script>
-		<script src="js/io/formats/optifine_jem.js"></script>
-		<script src="js/io/formats/optifine_jpm.js"></script>
-		<script src="js/io/formats/skin.js"></script>
-		<script src="js/io/formats/image.js"></script>
-		<script src="js/globals.js"></script>
+	<script src="js/edit_sessions.js"></script>
+	<script src="js/validator.js"></script>
+	<script src="js/outliner/outliner.js"></script>
+	<script src="js/outliner/collections.js"></script>
+	<script src="js/outliner/group.js"></script>
+	<script src="js/outliner/mesh.js"></script>
+	<script src="js/outliner/cube.js"></script>
+	<script src="js/outliner/texture_mesh.js"></script>
+	<script src="js/outliner/locator.js"></script>
+	<script src="js/outliner/null_object.js"></script>
+	<script src="js/preview/preview.js"></script>
+	<script src="js/preview/reference_images.js"></script>
+	<script src="js/preview/screenshot.js"></script>
+	<script src="js/preview/canvas.js"></script>
+	<script src="js/modeling/transform_gizmo.js"></script>
+	<script src="js/modeling/transform.js"></script>
+	<script src="js/modeling/scale.js"></script>
+	<script src="js/modeling/mesh_editing.js"></script>
+	<script src="js/modeling/mirror_modeling.js"></script>
+	<script src="js/texturing/layers.js"></script>
+	<script src="js/texturing/textures.js"></script>
+	<script src="js/texturing/texture_groups.js"></script>
+	<script src="js/texturing/texture_flipbook.js"></script>
+	<script src="js/texturing/uv.js"></script>
+	<script src="js/texturing/painter.js"></script>
+	<script src="js/texturing/texture_generator.js"></script>
+	<script src="js/texturing/color.js"></script>
+	<script src="js/texturing/edit_image.js"></script>
+	<script src="js/display_mode.js"></script>
+	<script src="js/animations/animation_mode.js"></script>
+	<script src="js/animations/animation.js"></script>
+	<script src="js/animations/molang.js"></script>
+	<script src="js/animations/timeline_animators.js"></script>
+	<script src="js/animations/keyframe.js"></script>
+	<script src="js/animations/timeline.js"></script>
+	<script src="js/animations/animation_controllers.js"></script>
+	<script src="js/preview/preview_scenes.js"></script>
+	<script src="js/predicate_editor.js"></script>
+	<script src="js/plugin_loader.js"></script>
 
-		<script>if (window.module) module = window.module;</script>
+	<script src="js/io/codec.js"></script>
+	<script src="js/io/format.js"></script>
+	<script src="js/io/project.js"></script>
+	<script src="js/io/io.js"></script>
+	<script src="js/io/share.js"></script>
+	<script src="js/io/formats/generic.js"></script>
+	<script src="js/io/formats/bbmodel.js"></script>
+	<script src="js/io/formats/java_block.js"></script>
+	<script src="js/io/formats/bedrock.js"></script>
+	<script src="js/io/formats/bedrock_old.js"></script>
+	<script src="js/io/formats/obj.js"></script>
+	<script src="js/io/formats/gltf.js"></script>
+	<script src="js/io/formats/fbx.js"></script>
+	<script src="js/io/formats/collada.js"></script>
+	<script src="js/io/formats/modded_entity.js"></script>
+	<script src="js/io/formats/optifine_jem.js"></script>
+	<script src="js/io/formats/optifine_jpm.js"></script>
+	<script src="js/io/formats/skin.js"></script>
+	<script src="js/io/formats/image.js"></script>
+	<script src="js/globals.js"></script>
+
+	<script>if (window.module) module = window.module;</script>
 
 	<div style="display: none;"></div>
 
@@ -233,10 +235,10 @@
 				<svg width="18" height="18" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.116 8l-4.558 4.558.884.884L8 8.884l4.558 4.558.884-.884L8.884 8l4.558-4.558-.884-.884L8 7.116 3.442 2.558l-.884.884L7.116 8z" /></svg>
 			</li>
 		</ul>
-		
+
 
 	</header>
-	
+
 
 	<div id="page_wrapper" class="invisible start_screen">
 
@@ -244,15 +246,15 @@
 
 		<div id="tab_bar" :class="{drag_mode: drag_target_index !== null}">
 			<div id="tab_bar_list" @wheel="mousewheelBar($event)" ref="tab_bar_list">
-				<div
-					class="project_tab"
-					v-for="(project, index) in tabs" :key="project.uuid"
-					:class="{
-						selected: project.selected,
-						new_tab: project.is_new_tab,
-						dragging: index == drag_target_index,
-						move_back:  (drag_position_index !== null && index > drag_target_index && drag_position_index >= index),
-						move_forth: (drag_position_index !== null && index < drag_target_index && drag_position_index <= index)
+				<div class="project_tab"
+					 v-for="(project, index) in tabs" :key="project.uuid"
+					 :class="{
+					 selected: project.selected,
+					 new_tab: project.is_new_tab,
+					 dragging: index= =drag_target_index,
+					 move_back: (drag_position_index != =null && index>
+					drag_target_index && drag_position_index >= index),
+					move_forth: (drag_position_index !== null && index < drag_target_index && drag_position_index <= index)
 					}"
 					:title="project.name || project.geometry_name || ''"
 					@dblclick="project.openSettings()"
@@ -261,7 +263,7 @@
 					@mouseup="mouseUp(project, $event)"
 					@mouseenter="mouseEnter(project, $event)"
 					@mouseleave="mouseLeave(project, $event)"
-				>
+					>
 					<dynamic-icon :icon="project.format ? project.format.icon : 'home'"></dynamic-icon>
 					<label class="project_tab_session_badge" v-if="project.EditSession"><i class="material-icons">group</i>{{ project.EditSession.client_count }}</label>
 					<label>{{ project.getDisplayName() }}</label>
@@ -290,15 +292,13 @@
 
 				<div class="toolbar_wrapper narrow tool_options"></div>
 				<ul id="mode_selector" v-if="showModes()">
-					<li
-						v-for="mode in options"
+					<li v-for="mode in options"
 						v-if="Condition(mode.condition)"
 						v-bind:class="{selected: mode.selected}"
-						v-on:mousedown="mode.select()"
-					>{{ mode.name }}</li>
+						v-on:mousedown="mode.select()">{{ mode.name }}</li>
 				</ul>
 			</div>
-			
+
 			<div id="left_bar" class="sidebar"></div>
 
 			<div id="right_bar" class="sidebar"></div>
@@ -319,9 +319,9 @@
 			<div id="panel_selector_bar"></div>
 
 		</div>
-	
+
 	</div>
-	
+
 	<script src="js/boot_loader.js"></script>
 	<script>
 		if (!Blockbench || !Blockbench.setup_successful) {
@@ -333,7 +333,7 @@
 			document.getElementById('loading_error_message').innerHTML = 'No loading errors...'
 		}
 	</script>
-	
+
 
 
 
