@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "rlSAvSVW",
+  "version": "KUc6mPaZ",
   "assets": [
     {
       "hash": "sha256-+jRfaL3uyA73yUkfay2ykXCYXNx26MuVwgMuC0B5TXA=",
@@ -1514,7 +1514,7 @@ self.assetsManifest = {
       "url": "manifest.webmanifest"
     },
     {
-      "hash": "sha256-AtpTWSaf+TNNRhKoL/jfWgwYcJopvKuaj85BUUzA+Yc=",
+      "hash": "sha256-Xm66iXOE0xqgYJpgcUC3Q3bHoEmnnEoAXU6GwFvtFMk=",
       "url": "templates/capes/15_cape/15_cape.meta.json"
     },
     {
@@ -1526,6 +1526,10 @@ self.assetsManifest = {
       "url": "templates/capes/15_cape/contents.json"
     },
     {
+      "hash": "sha256-fHBQ9E8rzs4NyO7M1/pCrotgwDFmW0bfTro9j0cVJIo=",
+      "url": "templates/capes/15_cape/index.json"
+    },
+    {
       "hash": "sha256-84QDqDeZMiYBn/FztoddTOuKOaeatgjL9yBP7dzl1Vw=",
       "url": "templates/capes/15_cape/manifest.json"
     },
@@ -1534,11 +1538,15 @@ self.assetsManifest = {
       "url": "templates/capes/15_cape/signatures.json"
     },
     {
-      "hash": "sha256-LmSPZMO+/dEjcYZQTsL0HV1X53bXd0+Z1OzazXXsbdo=",
+      "hash": "sha256-us7hLbtgY6RjQ7GdhoZGv2Smum00gomlcunFW7D1mYo=",
+      "url": "templates/capes/15_cape/texts/ReadMe.txt"
+    },
+    {
+      "hash": "sha256-tZznJKqva18m9NX8lla3njL2/khy0SuX5Rp9lOnN2ck=",
       "url": "templates/capes/15_cape/texts/en_US.lang"
     },
     {
-      "hash": "sha256-8phpA60HxHWdVY7dnKAPkYq7B61rAF/Hhh9UGValrvc=",
+      "hash": "sha256-k8Kd2tGkdHlQmdQUNqejpqW2SwRR8t4Pzwh4jxIV400=",
       "url": "templates/capes/15_cape/texts/languages.json"
     },
     {
@@ -1546,12 +1554,16 @@ self.assetsManifest = {
       "url": "templates/capes/Founder's Cape/contents.json"
     },
     {
-      "hash": "sha256-3UIs+nscQAcfwRoi4bqS/7eQBjb3Q6iL4P6taCsvSw0=",
+      "hash": "sha256-AkMBgRN+f0ay6bFwTg7dCaC7FX7Cs8+yZXwmrW6DvWk=",
       "url": "templates/capes/Founder's Cape/founders_cape.meta.json"
     },
     {
       "hash": "sha256-8PKWO5RhxdTV8SqggbwrNHO3LwLqh6xes2xv/iHM4is=",
       "url": "templates/capes/Founder's Cape/founders_cape_texture.png"
+    },
+    {
+      "hash": "sha256-pXig59lNj30Sdo7TqYXHGf1qRs/1q+ta+S62QfVjNVY=",
+      "url": "templates/capes/Founder's Cape/index.json"
     },
     {
       "hash": "sha256-wd2gM2TyR65U6fj1s7i50q2/EPe5jzbIBZY+4sdxFvw=",
@@ -1562,11 +1574,15 @@ self.assetsManifest = {
       "url": "templates/capes/Founder's Cape/signatures.json"
     },
     {
-      "hash": "sha256-UdFd4hBxKQe8T3JFqV/WvEyMPmfmefQqMLJsz8+GlMY=",
+      "hash": "sha256-us7hLbtgY6RjQ7GdhoZGv2Smum00gomlcunFW7D1mYo=",
+      "url": "templates/capes/Founder's Cape/texts/ReadMe.txt"
+    },
+    {
+      "hash": "sha256-tZznJKqva18m9NX8lla3njL2/khy0SuX5Rp9lOnN2ck=",
       "url": "templates/capes/Founder's Cape/texts/en_US.lang"
     },
     {
-      "hash": "sha256-YIuCqLw2KX43/yVfjch61O45RRY+qytYzxqIcOan8Ok=",
+      "hash": "sha256-k8Kd2tGkdHlQmdQUNqejpqW2SwRR8t4Pzwh4jxIV400=",
       "url": "templates/capes/Founder's Cape/texts/languages.json"
     },
     {
@@ -1582,7 +1598,7 @@ self.assetsManifest = {
       "url": "templates/capes/cape_cherry/contents.json"
     },
     {
-      "hash": "sha256-zT3sp6jqid8x/4EBLO/hbs7tHOlCWmUev0/r9n+NVhs=",
+      "hash": "sha256-NgW/5m494CV080y2Rsu0lnxDTUF3+tvwk2qRM26BB0Y=",
       "url": "templates/capes/cape_cherry/index.json"
     },
     {
@@ -1610,12 +1626,16 @@ self.assetsManifest = {
       "url": "templates/capes/cape_lbe/cape_LBE.png"
     },
     {
-      "hash": "sha256-pP/SCpc/8DnbuOkTcG8p8DlEViN6oPq0xix+kLopLyo=",
+      "hash": "sha256-rdy9c79+y3TfjAOuHumRlMeXwQ+LKC3O6OIj04o0ydg=",
       "url": "templates/capes/cape_lbe/cape_lbe.meta.json"
     },
     {
       "hash": "sha256-KOFzISqc2REoCQr2by4/FcGZwx0I+ehOldGeUrGMkF0=",
       "url": "templates/capes/cape_lbe/contents.json"
+    },
+    {
+      "hash": "sha256-RhEtJg8qtSObhX5xk/8StpW1o4xa0WC3n8WZVtT4DZU=",
+      "url": "templates/capes/cape_lbe/index.json"
     },
     {
       "hash": "sha256-9rlYHUG0SMXjcYwjMh370yoPVsyYs6V4FpQmiMgBmmM=",
@@ -1626,15 +1646,19 @@ self.assetsManifest = {
       "url": "templates/capes/cape_lbe/signatures.json"
     },
     {
-      "hash": "sha256-NTwb44v7Q+jTD3IDtnsUb0PrSLllypwfJdWSysmOjKA=",
+      "hash": "sha256-us7hLbtgY6RjQ7GdhoZGv2Smum00gomlcunFW7D1mYo=",
+      "url": "templates/capes/cape_lbe/texts/ReadMe.txt"
+    },
+    {
+      "hash": "sha256-tZznJKqva18m9NX8lla3njL2/khy0SuX5Rp9lOnN2ck=",
       "url": "templates/capes/cape_lbe/texts/en_US.lang"
     },
     {
-      "hash": "sha256-YIuCqLw2KX43/yVfjch61O45RRY+qytYzxqIcOan8Ok=",
+      "hash": "sha256-k8Kd2tGkdHlQmdQUNqejpqW2SwRR8t4Pzwh4jxIV400=",
       "url": "templates/capes/cape_lbe/texts/languages.json"
     },
     {
-      "hash": "sha256-QyBe/1Gki14HP3ipUmEiRQlxI9IFfWxGWFsPBGwzQ28=",
+      "hash": "sha256-7NafOjpWEyhAg6REZzhdcfiGSnX9rhIM1qw1tR08nZA=",
       "url": "templates/capes/cape_office/cape_office.meta.json"
     },
     {
@@ -1646,6 +1670,10 @@ self.assetsManifest = {
       "url": "templates/capes/cape_office/contents.json"
     },
     {
+      "hash": "sha256-IFpQebKf1yQY+BQxi9PSAF6foAc7ONtT04ga5x9kSWQ=",
+      "url": "templates/capes/cape_office/index.json"
+    },
+    {
       "hash": "sha256-zhXRgbweWw5n/xoIb5IsUQ04vzdxkeiiQZuDQpwssFQ=",
       "url": "templates/capes/cape_office/manifest.json"
     },
@@ -1654,7 +1682,11 @@ self.assetsManifest = {
       "url": "templates/capes/cape_office/signatures.json"
     },
     {
-      "hash": "sha256-BBtK+lyN9IICbYttl3Jq90qHan4FfFKAjXMMU2dt14s=",
+      "hash": "sha256-us7hLbtgY6RjQ7GdhoZGv2Smum00gomlcunFW7D1mYo=",
+      "url": "templates/capes/cape_office/texts/ReadMe.txt"
+    },
+    {
+      "hash": "sha256-tZznJKqva18m9NX8lla3njL2/khy0SuX5Rp9lOnN2ck=",
       "url": "templates/capes/cape_office/texts/en_US.lang"
     },
     {
@@ -1662,7 +1694,7 @@ self.assetsManifest = {
       "url": "templates/capes/cape_office/texts/languages.json"
     },
     {
-      "hash": "sha256-pmRwW42yyUWKFbAgWCX+/Zu/OE0mGdVvSTkVy/myA/k=",
+      "hash": "sha256-2yHs02wJ2KoZvM2r6TZRbmzjK0Qsqu8C43Bdx+uucbk=",
       "url": "templates/capes/cape_pancape/cape_pancape.meta.json"
     },
     {
@@ -1678,6 +1710,10 @@ self.assetsManifest = {
       "url": "templates/capes/cape_pancape/contents.json"
     },
     {
+      "hash": "sha256-cps+Tk255vkU9iIUG7eiBj6FdhPVVz76ztXsYtBC33c=",
+      "url": "templates/capes/cape_pancape/index.json"
+    },
+    {
       "hash": "sha256-oFuc1LZUBDoqD8c95sylsfChlipXai+IsYYGpAHj3DM=",
       "url": "templates/capes/cape_pancape/manifest.json"
     },
@@ -1686,15 +1722,19 @@ self.assetsManifest = {
       "url": "templates/capes/cape_pancape/signatures.json"
     },
     {
-      "hash": "sha256-9OpXPFqHDn4bRSF6HX8DAIO8rvpJ6uuf29TPYx8wXM8=",
+      "hash": "sha256-us7hLbtgY6RjQ7GdhoZGv2Smum00gomlcunFW7D1mYo=",
+      "url": "templates/capes/cape_pancape/texts/ReadMe.txt"
+    },
+    {
+      "hash": "sha256-tZznJKqva18m9NX8lla3njL2/khy0SuX5Rp9lOnN2ck=",
       "url": "templates/capes/cape_pancape/texts/en_US.lang"
     },
     {
-      "hash": "sha256-YIuCqLw2KX43/yVfjch61O45RRY+qytYzxqIcOan8Ok=",
+      "hash": "sha256-k8Kd2tGkdHlQmdQUNqejpqW2SwRR8t4Pzwh4jxIV400=",
       "url": "templates/capes/cape_pancape/texts/languages.json"
     },
     {
-      "hash": "sha256-Sd9hwrLmX6tnvQFGNEBw+ViLUG7Gow2E+eZVJokhi1k=",
+      "hash": "sha256-fvVhwBKSeyRe4OrwyHM8CYrwiO4JhYRIsXZrTWheTVY=",
       "url": "templates/capes/cape_pancape1/cape_pancape.meta.json"
     },
     {
@@ -1710,6 +1750,10 @@ self.assetsManifest = {
       "url": "templates/capes/cape_pancape1/contents.json"
     },
     {
+      "hash": "sha256-cps+Tk255vkU9iIUG7eiBj6FdhPVVz76ztXsYtBC33c=",
+      "url": "templates/capes/cape_pancape1/index.json"
+    },
+    {
       "hash": "sha256-FmwhAGsd4zF6ITncA8uMKprom1ragwZy3ZxFLxDCrtw=",
       "url": "templates/capes/cape_pancape1/manifest.json"
     },
@@ -1718,15 +1762,19 @@ self.assetsManifest = {
       "url": "templates/capes/cape_pancape1/signatures.json"
     },
     {
-      "hash": "sha256-9OpXPFqHDn4bRSF6HX8DAIO8rvpJ6uuf29TPYx8wXM8=",
+      "hash": "sha256-us7hLbtgY6RjQ7GdhoZGv2Smum00gomlcunFW7D1mYo=",
+      "url": "templates/capes/cape_pancape1/texts/ReadMe.txt"
+    },
+    {
+      "hash": "sha256-tZznJKqva18m9NX8lla3njL2/khy0SuX5Rp9lOnN2ck=",
       "url": "templates/capes/cape_pancape1/texts/en_US.lang"
     },
     {
-      "hash": "sha256-YIuCqLw2KX43/yVfjch61O45RRY+qytYzxqIcOan8Ok=",
+      "hash": "sha256-k8Kd2tGkdHlQmdQUNqejpqW2SwRR8t4Pzwh4jxIV400=",
       "url": "templates/capes/cape_pancape1/texts/languages.json"
     },
     {
-      "hash": "sha256-d8GwJDRBsIB7OrKacsNifVjnNXuE431TjIlsC0qOFAM=",
+      "hash": "sha256-6NmmPiu+ul8m+yEKAFObjt/Z0nJNd/paKrlt8pEQy6w=",
       "url": "templates/capes/cape_pride/cape_pride.meta.json"
     },
     {
@@ -1738,6 +1786,10 @@ self.assetsManifest = {
       "url": "templates/capes/cape_pride/contents.json"
     },
     {
+      "hash": "sha256-M9w5cTX1bV40jhZ5M7ZkaOFTB8wLftM5p+qiOEPvvZk=",
+      "url": "templates/capes/cape_pride/index.json"
+    },
+    {
       "hash": "sha256-nvUnnDOq1HKFLe6W5Jcbr0lCgj27eii0nQa96qa9q/M=",
       "url": "templates/capes/cape_pride/manifest.json"
     },
@@ -1746,15 +1798,19 @@ self.assetsManifest = {
       "url": "templates/capes/cape_pride/signatures.json"
     },
     {
-      "hash": "sha256-cnHNHmonmOzqZD9Qgwy/WsyTWZ/wqmJJ7cDbXqcPT0w=",
+      "hash": "sha256-us7hLbtgY6RjQ7GdhoZGv2Smum00gomlcunFW7D1mYo=",
+      "url": "templates/capes/cape_pride/texts/ReadMe.txt"
+    },
+    {
+      "hash": "sha256-tZznJKqva18m9NX8lla3njL2/khy0SuX5Rp9lOnN2ck=",
       "url": "templates/capes/cape_pride/texts/en_US.lang"
     },
     {
-      "hash": "sha256-YIuCqLw2KX43/yVfjch61O45RRY+qytYzxqIcOan8Ok=",
+      "hash": "sha256-k8Kd2tGkdHlQmdQUNqejpqW2SwRR8t4Pzwh4jxIV400=",
       "url": "templates/capes/cape_pride/texts/languages.json"
     },
     {
-      "hash": "sha256-EFNFoaTW2SMgwrNFsG1tMRctwdDNlB2Y33nyT6OoZ68=",
+      "hash": "sha256-Xvo5tDSX/1MfSdzxSI0AnF1ERyXugUNyHCCmjezZRRo=",
       "url": "templates/capes/cape_tiktok/cape_tiktok.meta.json"
     },
     {
@@ -1766,6 +1822,10 @@ self.assetsManifest = {
       "url": "templates/capes/cape_tiktok/contents.json"
     },
     {
+      "hash": "sha256-fRYmch7xmCZEJtpkHH36rKyicJDQl5RYyABs8Z+HY1c=",
+      "url": "templates/capes/cape_tiktok/index.json"
+    },
+    {
       "hash": "sha256-v0hdolCVMUPIfU61S+BtrHspMTGl27WADupZIYc0w38=",
       "url": "templates/capes/cape_tiktok/manifest.json"
     },
@@ -1774,15 +1834,19 @@ self.assetsManifest = {
       "url": "templates/capes/cape_tiktok/signatures.json"
     },
     {
-      "hash": "sha256-sRRfAwNCPqnIeeHwIQ0zhkZTC8MgsGPSxGfSXuZB7tM=",
+      "hash": "sha256-us7hLbtgY6RjQ7GdhoZGv2Smum00gomlcunFW7D1mYo=",
+      "url": "templates/capes/cape_tiktok/texts/ReadMe.txt"
+    },
+    {
+      "hash": "sha256-tZznJKqva18m9NX8lla3njL2/khy0SuX5Rp9lOnN2ck=",
       "url": "templates/capes/cape_tiktok/texts/en_US.lang"
     },
     {
-      "hash": "sha256-YIuCqLw2KX43/yVfjch61O45RRY+qytYzxqIcOan8Ok=",
+      "hash": "sha256-k8Kd2tGkdHlQmdQUNqejpqW2SwRR8t4Pzwh4jxIV400=",
       "url": "templates/capes/cape_tiktok/texts/languages.json"
     },
     {
-      "hash": "sha256-wqI7iBwAR2ENPlkvAQ+vHTj4ffDn2XbmJMljC5bJZvY=",
+      "hash": "sha256-hsgL6B0Zx+rF1/xpS0LkCV4jFzbrf4k2HqEutQrUs9s=",
       "url": "templates/capes/cape_twitch/cape_twitch.meta.json"
     },
     {
@@ -1794,6 +1858,10 @@ self.assetsManifest = {
       "url": "templates/capes/cape_twitch/contents.json"
     },
     {
+      "hash": "sha256-zgK35jxwC5XnK8AOAxLzPWz0EzyCFsEzTNxCaUQB4iw=",
+      "url": "templates/capes/cape_twitch/index.json"
+    },
+    {
       "hash": "sha256-YyFMoBv3guZLaJ6ckbp9vkYBf7kfqRH506o5yVjIFXM=",
       "url": "templates/capes/cape_twitch/manifest.json"
     },
@@ -1802,15 +1870,19 @@ self.assetsManifest = {
       "url": "templates/capes/cape_twitch/signatures.json"
     },
     {
-      "hash": "sha256-EuZwv6QILSXzyHUk9xtULlfJAUFxMfQNhq8yv+ilBZw=",
+      "hash": "sha256-us7hLbtgY6RjQ7GdhoZGv2Smum00gomlcunFW7D1mYo=",
+      "url": "templates/capes/cape_twitch/texts/ReadMe.txt"
+    },
+    {
+      "hash": "sha256-tZznJKqva18m9NX8lla3njL2/khy0SuX5Rp9lOnN2ck=",
       "url": "templates/capes/cape_twitch/texts/en_US.lang"
     },
     {
-      "hash": "sha256-YIuCqLw2KX43/yVfjch61O45RRY+qytYzxqIcOan8Ok=",
+      "hash": "sha256-k8Kd2tGkdHlQmdQUNqejpqW2SwRR8t4Pzwh4jxIV400=",
       "url": "templates/capes/cape_twitch/texts/languages.json"
     },
     {
-      "hash": "sha256-FoTQp0Ln/slTtzw5UtTS3J+5fDdlDe2m7x5NHOIVlg0=",
+      "hash": "sha256-JXWbtbemMr6AUXoCs9DCdzHYfDSyGgHd8HaZ6i4TzGM=",
       "url": "templates/capes/common_cape/common_cape.meta.json"
     },
     {
@@ -1822,6 +1894,10 @@ self.assetsManifest = {
       "url": "templates/capes/common_cape/contents.json"
     },
     {
+      "hash": "sha256-6+jbdqLE7yxErTCOAt6e2nB88GFIGkE7W4gxhqUpxaQ=",
+      "url": "templates/capes/common_cape/index.json"
+    },
+    {
       "hash": "sha256-8eNLHZwdbmi4xIipJI/eizIPN2K9fUGYM0Dh6HuVI3A=",
       "url": "templates/capes/common_cape/manifest.json"
     },
@@ -1830,11 +1906,15 @@ self.assetsManifest = {
       "url": "templates/capes/common_cape/signatures.json"
     },
     {
-      "hash": "sha256-PwHRIxl2XgODg3dar74jVwtgXqCCDjDgGPzvfNbg61c=",
+      "hash": "sha256-us7hLbtgY6RjQ7GdhoZGv2Smum00gomlcunFW7D1mYo=",
+      "url": "templates/capes/common_cape/texts/ReadMe.txt"
+    },
+    {
+      "hash": "sha256-tZznJKqva18m9NX8lla3njL2/khy0SuX5Rp9lOnN2ck=",
       "url": "templates/capes/common_cape/texts/en_US.lang"
     },
     {
-      "hash": "sha256-8phpA60HxHWdVY7dnKAPkYq7B61rAF/Hhh9UGValrvc=",
+      "hash": "sha256-k8Kd2tGkdHlQmdQUNqejpqW2SwRR8t4Pzwh4jxIV400=",
       "url": "templates/capes/common_cape/texts/languages.json"
     },
     {
@@ -1842,12 +1922,16 @@ self.assetsManifest = {
       "url": "templates/capes/home_cape/contents.json"
     },
     {
-      "hash": "sha256-PvyiVm/qvPOBWzZ9eKmEqXiqWmI4MrF8pz817L+/ftM=",
+      "hash": "sha256-F9Jhp52THmd1QM2Fb9fdXbHolLE3E6StrZFAcsct1pg=",
       "url": "templates/capes/home_cape/home_cape.meta.json"
     },
     {
       "hash": "sha256-SFNXOS0bQcn0cH+ivEaA2GYrtg8MOWnHyJkNZNC9Xac=",
       "url": "templates/capes/home_cape/home_cape.png"
+    },
+    {
+      "hash": "sha256-tQrlEn9j+SzOu0qZDWurs0ityHDEnAvrvNfFa8Gaes0=",
+      "url": "templates/capes/home_cape/index.json"
     },
     {
       "hash": "sha256-yL1KQW/RSI/wuu0dl8FF2mHLN189jUaQY1oA+LZzSkE=",
@@ -1858,11 +1942,15 @@ self.assetsManifest = {
       "url": "templates/capes/home_cape/signatures.json"
     },
     {
-      "hash": "sha256-d3+hgq4FlVV7fiyhyjO1/eQW1p3HrvNkEsaIOfGeFig=",
+      "hash": "sha256-us7hLbtgY6RjQ7GdhoZGv2Smum00gomlcunFW7D1mYo=",
+      "url": "templates/capes/home_cape/texts/ReadMe.txt"
+    },
+    {
+      "hash": "sha256-tZznJKqva18m9NX8lla3njL2/khy0SuX5Rp9lOnN2ck=",
       "url": "templates/capes/home_cape/texts/en_US.lang"
     },
     {
-      "hash": "sha256-8phpA60HxHWdVY7dnKAPkYq7B61rAF/Hhh9UGValrvc=",
+      "hash": "sha256-k8Kd2tGkdHlQmdQUNqejpqW2SwRR8t4Pzwh4jxIV400=",
       "url": "templates/capes/home_cape/texts/languages.json"
     },
     {
@@ -1870,7 +1958,7 @@ self.assetsManifest = {
       "url": "templates/capes/idaho_cape/contents.json"
     },
     {
-      "hash": "sha256-wk5MmJJrdAI1Eum+39pM8ft4Ys/Oj18DRAMtlyfTkwM=",
+      "hash": "sha256-EPLmtpfJXFE6zzPEDnRfVCbdhs3mswRBudQEGhpWnLA=",
       "url": "templates/capes/idaho_cape/idaho_cape.meta.json"
     },
     {
@@ -1882,6 +1970,10 @@ self.assetsManifest = {
       "url": "templates/capes/idaho_cape/idaho_cape_tintmap.tga"
     },
     {
+      "hash": "sha256-bq7/JHJO0ntSkTrUFH5GD0sja3SNBubSR/YGVd3n6IE=",
+      "url": "templates/capes/idaho_cape/index.json"
+    },
+    {
       "hash": "sha256-2+m7KedIOrNzkNLPqkAqh9NFjix7lAwc7sowYF9q0lw=",
       "url": "templates/capes/idaho_cape/manifest.json"
     },
@@ -1890,11 +1982,15 @@ self.assetsManifest = {
       "url": "templates/capes/idaho_cape/signatures.json"
     },
     {
+      "hash": "sha256-us7hLbtgY6RjQ7GdhoZGv2Smum00gomlcunFW7D1mYo=",
+      "url": "templates/capes/idaho_cape/texts/ReadMe.txt"
+    },
+    {
       "hash": "sha256-6iNlZvvXo3JPxBAriNRWvNN3RM9qVbv21kOir9F4JXI=",
       "url": "templates/capes/idaho_cape/texts/de_DE.lang"
     },
     {
-      "hash": "sha256-0MxgH0UPYPM98zbGtemaQeUbvvptG1RdA9WTxrIYmxc=",
+      "hash": "sha256-tZznJKqva18m9NX8lla3njL2/khy0SuX5Rp9lOnN2ck=",
       "url": "templates/capes/idaho_cape/texts/en_US.lang"
     },
     {
@@ -1914,7 +2010,7 @@ self.assetsManifest = {
       "url": "templates/capes/idaho_cape/texts/jp_JP.lang"
     },
     {
-      "hash": "sha256-LA4pjdy9ja0L7P+kw53Ke4Kdg3rYb+cztEA3wIWAlA4=",
+      "hash": "sha256-k8Kd2tGkdHlQmdQUNqejpqW2SwRR8t4Pzwh4jxIV400=",
       "url": "templates/capes/idaho_cape/texts/languages.json"
     },
     {
@@ -1926,11 +2022,15 @@ self.assetsManifest = {
       "url": "templates/capes/mcc_cape/contents.json"
     },
     {
+      "hash": "sha256-ty0+Hv3IZE+m3cdql8WSQcdy7gbo0GyED2CWzkgLcSQ=",
+      "url": "templates/capes/mcc_cape/index.json"
+    },
+    {
       "hash": "sha256-y11hleqDuHQ2GKgy8qdBn5rluYjiHxQa1WyNvLfRugg=",
       "url": "templates/capes/mcc_cape/manifest.json"
     },
     {
-      "hash": "sha256-hQXMHY40NCK6KvE2ycxn7+mHXCYNculnnH7+qUV7xzY=",
+      "hash": "sha256-4Jj9pfJrEPm5ZcgDuNKdxkdD55J+Fb1XZgBKzWWGe+U=",
       "url": "templates/capes/mcc_cape/mcc_cape.meta.json"
     },
     {
@@ -1942,11 +2042,15 @@ self.assetsManifest = {
       "url": "templates/capes/mcc_cape/signatures.json"
     },
     {
-      "hash": "sha256-u0A6eAIDorfbXqy2+huvm2Wbh+wr2bwjUIV0U6y9uAI=",
+      "hash": "sha256-us7hLbtgY6RjQ7GdhoZGv2Smum00gomlcunFW7D1mYo=",
+      "url": "templates/capes/mcc_cape/texts/ReadMe.txt"
+    },
+    {
+      "hash": "sha256-tZznJKqva18m9NX8lla3njL2/khy0SuX5Rp9lOnN2ck=",
       "url": "templates/capes/mcc_cape/texts/en_US.lang"
     },
     {
-      "hash": "sha256-8phpA60HxHWdVY7dnKAPkYq7B61rAF/Hhh9UGValrvc=",
+      "hash": "sha256-k8Kd2tGkdHlQmdQUNqejpqW2SwRR8t4Pzwh4jxIV400=",
       "url": "templates/capes/mcc_cape/texts/languages.json"
     },
     {
@@ -1954,11 +2058,15 @@ self.assetsManifest = {
       "url": "templates/capes/menace_cape/contents.json"
     },
     {
+      "hash": "sha256-gFL+XcXMWFX08xebFE74XnKT/zBHlwzdtHxR8IRasgY=",
+      "url": "templates/capes/menace_cape/index.json"
+    },
+    {
       "hash": "sha256-Y20kTomOWMJkhPbsZ4UEL6+ZEoEsJotBMsEfTkCSKrw=",
       "url": "templates/capes/menace_cape/manifest.json"
     },
     {
-      "hash": "sha256-tV0xKjt4OprRkls5zE7kxFJmO7qdqN+zKcsKXb24mJ8=",
+      "hash": "sha256-u/XSxWelItDApMD3/SSWO840bqnTDktW4+L5s0gY1Z8=",
       "url": "templates/capes/menace_cape/menace_cape.meta.json"
     },
     {
@@ -1970,11 +2078,15 @@ self.assetsManifest = {
       "url": "templates/capes/menace_cape/signatures.json"
     },
     {
-      "hash": "sha256-uyMFd7j4Bo0XP5PMYyowRW/Z8I92EMLNoj9NOG8x/Ic=",
+      "hash": "sha256-us7hLbtgY6RjQ7GdhoZGv2Smum00gomlcunFW7D1mYo=",
+      "url": "templates/capes/menace_cape/texts/ReadMe.txt"
+    },
+    {
+      "hash": "sha256-tZznJKqva18m9NX8lla3njL2/khy0SuX5Rp9lOnN2ck=",
       "url": "templates/capes/menace_cape/texts/en_US.lang"
     },
     {
-      "hash": "sha256-8phpA60HxHWdVY7dnKAPkYq7B61rAF/Hhh9UGValrvc=",
+      "hash": "sha256-k8Kd2tGkdHlQmdQUNqejpqW2SwRR8t4Pzwh4jxIV400=",
       "url": "templates/capes/menace_cape/texts/languages.json"
     },
     {
@@ -1986,11 +2098,15 @@ self.assetsManifest = {
       "url": "templates/capes/mojang_studios_cape/contents.json"
     },
     {
+      "hash": "sha256-6UL5F+Br6SV7BculLnTc5z9OgIucbgZWN+KNkq8z5Jo=",
+      "url": "templates/capes/mojang_studios_cape/index.json"
+    },
+    {
       "hash": "sha256-qFqHuWGhfT+QlqZkJpp6lnii5V1i2StYJ7Y3cz7Xat4=",
       "url": "templates/capes/mojang_studios_cape/manifest.json"
     },
     {
-      "hash": "sha256-2z68WgnBT3PAsFpzsPQwPgXHl9cNk4c3s7Y89iWOxAI=",
+      "hash": "sha256-e7pJ55opP3cVH+NNXZJDBqO4ENBXau4CadrdEhpkGmg=",
       "url": "templates/capes/mojang_studios_cape/mojang_studios_cape.meta.json"
     },
     {
@@ -1998,16 +2114,24 @@ self.assetsManifest = {
       "url": "templates/capes/mojang_studios_cape/signatures.json"
     },
     {
-      "hash": "sha256-M19rBVTG1aMHaRirP1yvuCifAE9COe2ZcQ5EZETmFAY=",
+      "hash": "sha256-us7hLbtgY6RjQ7GdhoZGv2Smum00gomlcunFW7D1mYo=",
+      "url": "templates/capes/mojang_studios_cape/texts/ReadMe.txt"
+    },
+    {
+      "hash": "sha256-tZznJKqva18m9NX8lla3njL2/khy0SuX5Rp9lOnN2ck=",
       "url": "templates/capes/mojang_studios_cape/texts/en_US.lang"
     },
     {
-      "hash": "sha256-YIuCqLw2KX43/yVfjch61O45RRY+qytYzxqIcOan8Ok=",
+      "hash": "sha256-k8Kd2tGkdHlQmdQUNqejpqW2SwRR8t4Pzwh4jxIV400=",
       "url": "templates/capes/mojang_studios_cape/texts/languages.json"
     },
     {
       "hash": "sha256-f505AMtXgi8nZv3/OExfxGpXZSI06RDSB9+zYGjhKtg=",
       "url": "templates/capes/one_vanilla_cape/contents.json"
+    },
+    {
+      "hash": "sha256-okyDHL6ttf2v8yp6LyGm+RFO0XTzVPellzavu/1yUrs=",
+      "url": "templates/capes/one_vanilla_cape/index.json"
     },
     {
       "hash": "sha256-uMkaNADlfTwABue+4BQU3qvUFAgbJaOCQ0UMO29VrU8=",
@@ -2018,7 +2142,7 @@ self.assetsManifest = {
       "url": "templates/capes/one_vanilla_cape/manifest.json"
     },
     {
-      "hash": "sha256-CwRtvny9RIQ6vfGxMSsA3BE6oxBb7zxzS7Ck7CY54Tk=",
+      "hash": "sha256-u/cXGtQMUYfsvK6AeuwqKfDNbCwPrY+mmZP4YiVI7Rs=",
       "url": "templates/capes/one_vanilla_cape/one_vanilla_cape.meta.json"
     },
     {
@@ -2026,11 +2150,15 @@ self.assetsManifest = {
       "url": "templates/capes/one_vanilla_cape/signatures.json"
     },
     {
-      "hash": "sha256-VOVcuuu4DJTpoa/k4r4BFTa1UJzMTAoF0/EhMU9+hAI=",
+      "hash": "sha256-us7hLbtgY6RjQ7GdhoZGv2Smum00gomlcunFW7D1mYo=",
+      "url": "templates/capes/one_vanilla_cape/texts/ReadMe.txt"
+    },
+    {
+      "hash": "sha256-tZznJKqva18m9NX8lla3njL2/khy0SuX5Rp9lOnN2ck=",
       "url": "templates/capes/one_vanilla_cape/texts/en_US.lang"
     },
     {
-      "hash": "sha256-YIuCqLw2KX43/yVfjch61O45RRY+qytYzxqIcOan8Ok=",
+      "hash": "sha256-k8Kd2tGkdHlQmdQUNqejpqW2SwRR8t4Pzwh4jxIV400=",
       "url": "templates/capes/one_vanilla_cape/texts/languages.json"
     },
     {

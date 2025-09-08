@@ -1,6 +1,7 @@
 {
   "files": [
-    "cape_cherry.meta.json",
+    "idaho_cape.meta.json",
+    "idaho_cape_tintmap.tga",
     "manifest.json",
     "signatures.json",
     "contents.json",

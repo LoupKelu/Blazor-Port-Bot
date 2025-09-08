@@ -10,7 +10,7 @@
   ],
   "texture_sources": [
     {
-      "texture": "cape_pancape.png",
+      "texture": "cape.png",
       "tint_map": "cape_pancape_tintmap.tga"
     }
   ],

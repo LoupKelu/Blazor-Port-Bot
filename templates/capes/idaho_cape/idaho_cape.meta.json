@@ -8,7 +8,7 @@
   ],
   "texture_sources": [
     {
-      "texture": "idaho_cape.png",
+      "texture": "cape.png",
       "tint_map": "idaho_cape_tintmap.tga"
     }
   ],
