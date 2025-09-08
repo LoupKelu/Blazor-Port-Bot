@@ -1,0 +1,21 @@
+{
+  "piece_id": "33f00123-58c8-48c8-9eb7-a4d5d51fe0a9",
+  "piece_name": "idaho_cape",
+  "piece_type": "persona_capes",
+  "zone": [
+    "body_back_upper",
+    "body_back_lower"
+  ],
+  "texture_sources": [
+    {
+      "texture": "idaho_cape.png",
+      "tint_map": "idaho_cape_tintmap.tga"
+    }
+  ],
+  "tint_base_color": {
+    "r_color": "#463AA5"
+  },
+  "tint_color": {
+    "r_color": "#463AA5"
+  }
+}

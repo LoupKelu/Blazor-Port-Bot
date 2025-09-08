@@ -1,0 +1,14 @@
+{
+	"piece_id": "1c7280df-9c67-6900-129a-8f38cb8cfe31",
+	"piece_name": "home_cape",
+	"piece_type": "persona_capes",
+  	"zone": [
+   	 "body_back_upper",
+   	 "body_back_lower"
+ 	 ],
+ 	 "texture_sources": [
+   	 {
+     	 "texture": "home_cape.png"
+   	 }
+  	]
+}

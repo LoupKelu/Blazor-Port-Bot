@@ -1,0 +1,14 @@
+{
+	"piece_id": "b7334c29-f7e4-4f91-8361-f68f62286c6e",
+	"piece_name": "cape_office",
+	"piece_type": "persona_capes",
+	"zone": [
+	  "body_back_upper",
+	  "body_back_lower"
+	],
+	"texture_sources": [
+	  {
+		"texture": "cape_office.png"
+	  }
+	]
+  }

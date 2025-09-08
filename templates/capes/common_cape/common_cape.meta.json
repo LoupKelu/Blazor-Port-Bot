@@ -1,0 +1,14 @@
+{
+	"piece_id": "704072ad-c0f3-4222-88c0-9a8fb7c2cba5",
+	"piece_name": "common_cape",
+	"piece_type": "persona_capes",
+  	"zone": [
+   	 "body_back_upper",
+   	 "body_back_lower"
+ 	 ],
+ 	 "texture_sources": [
+   	 {
+     	 "texture": "common_cape.png"
+   	 }
+  	]
+}
