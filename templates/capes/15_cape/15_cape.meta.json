@@ -1,0 +1,14 @@
+{
+  "piece_id": "cd18295b-be87-fbf8-e96f-a7d3cb3add3c",
+  "piece_name": "Loups'15_cape",
+  "piece_type": "persona_capes",
+  "zone": [
+    "body_back_upper",
+    "body_back_lower"
+  ],
+  "texture_sources": [
+    {
+      "texture": "cape.png"
+    }
+  ]
+}

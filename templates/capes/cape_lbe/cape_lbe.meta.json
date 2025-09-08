@@ -1,0 +1,14 @@
+{
+  "piece_id": "4fa38665-b43d-405b-bae5-cd07ce7ecd87",
+  "piece_name": "Loups'cape_lbe",
+  "piece_type": "persona_capes",
+  "zone": [
+    "body_back_upper",
+    "body_back_lower"
+  ],
+  "texture_sources": [
+    {
+      "texture": "cape.png"
+    }
+  ]
+}

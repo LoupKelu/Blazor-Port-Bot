@@ -1,0 +1,14 @@
+{
+  "piece_id": "20e6eba4-27b1-a9dd-dfb7-10948dc8774b",
+  "piece_name": "CustomCape_By_LoupKelu",
+  "piece_type": "persona_capes",
+  "zone": [
+    "body_back_upper",
+    "body_back_lower"
+  ],
+  "texture_sources": [
+    {
+      "texture": "Cape.png"
+    }
+  ]
+}

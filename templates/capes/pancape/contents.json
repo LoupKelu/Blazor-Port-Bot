@@ -1,0 +1,24 @@
+{
+	"version": 1,
+	"content": [{
+		"key": "cI6huTsgbEGMkLlw6xcZlhQj7u1sPvhW",
+		"path": "cape_pancape.meta.json"
+	}, {
+		"key": "zO5XEjtA3WcbvFK8o0HaeGmQ8aaY2lBh",
+		"path": "Cape.png"
+	}, {
+		"key": "zH4ehbhihgk6s3x68hlJRtb1PBqo1Cc9",
+		"path": "Cape_tga.tga"
+	}, {
+		"path": "manifest.json"
+	}, {
+		"path": "texts/en_US.lang"
+	}, {
+		"path": "texts/languages.json"
+	}, {
+		"key": "jS48YFb6yzhdyPrCiLHwtw2Rs7uarb1A",
+		"path": "signatures.json"
+	}, {
+		"path": "texts/"
+	}]
+}

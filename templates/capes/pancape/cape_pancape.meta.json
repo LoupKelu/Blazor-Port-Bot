@@ -1,0 +1,21 @@
+{
+	"piece_id": "43217bd4-2719-486c-b19a-0c94cc446e3f",
+	"piece_name": "CustomCape_By_LoupKelu",
+	"piece_type": "persona_capes",
+	"zone": [
+		"body_back_upper",
+		"body_back_lower",
+		"left_leg_upper",
+		"right_leg_upper"
+	],
+	"texture_sources": [{
+		"texture": "Cape.png",
+		"tint_map": "Cape_tga.tga"
+	}],
+	"tint_base_color": {
+		"r_color": "#463AA5"
+	},
+	"tint_color": {
+		"r_color": "#463AA5"
+	}
+}
