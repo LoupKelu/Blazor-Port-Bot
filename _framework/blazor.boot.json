@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Oficial website",
   "resources": {
-    "hash": "sha256-wyISRw9UqnlBwoTtWQkz0fDJKE917yQsetns1eNZbWE=",
+    "hash": "sha256-EufTNjqtcSjO1NFRIIuXfLDGYp1VUzi4XVEu0pOKo5w=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-O/NCYcAN9uPocD7ns7AzF/cqx7f5vL1PTJCQs0vEXyk="
     },
@@ -19,7 +19,7 @@
     "coreAssembly": {},
     "assembly": {
       "Microsoft.AspNetCore.Components.wasm": "sha256-eqNGe3dtQ8tynuZtw54OwXYUWrQ9GMnpUGnxNUydLwo=",
-      "Microsoft.AspNetCore.Components.Web.wasm": "sha256-V0KPoKWDL57qHHxPixcWDCOoElyA5XlcJds9IRvc3zs=",
+      "Microsoft.AspNetCore.Components.Web.wasm": "sha256-7tlbqe548LKp+eDTJvSJ3cITJoFQ1MQIRZWSz6YQgwc=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-s8L0/CKGDt5wMNGele8o0tAr3hMyG+XPUf6OSuXElCI=",
       "Microsoft.Extensions.Configuration.wasm": "sha256-od574rRtVVRJj+24jbl8j3GdQFpxlJOpSx+pEMw1Q18=",
       "Microsoft.Extensions.Configuration.Abstractions.wasm": "sha256-XR+WUfg8LtnrwdXFBnV+qO3ROyp6cYCfl1AZajIAheM=",
@@ -78,7 +78,7 @@
       "System.Xml.XDocument.wasm": "sha256-XbdQ6ZsQxVkTl/G4GJlh/nxsG+5/JJ+/K7szpLJ67Sw=",
       "System.wasm": "sha256-/Ib2sECJIp5OmAw2FVP/3jA36Bh6yA6fac798DlmOd8=",
       "System.Private.CoreLib.wasm": "sha256-X/9htSc1lMHcNrv6SR/aV0WPD64pVdvGopIzHXxdk9Y=",
-      "Oficial website.wasm": "sha256-2G715osrXWa+2R8LZ+BSZjsg1U0xGoy8TC4eqUz+wfU="
+      "Oficial website.wasm": "sha256-/Ij5UqDUBjjTkr0vOUDZk7RQu2M00Fpv3WkN1/mGFPo="
     }
   },
   "cacheBootResources": true,
